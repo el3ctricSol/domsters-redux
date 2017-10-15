@@ -13,3 +13,92 @@
 @import 'modules/_table.css';
 @import 'modules/_navigation.css';
 @import 'modules/_gallery.css';
+
+@media (min-width: 768px) {
+a {
+    font: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* a:link {
+    color: #445;
+    background-color: #eb6;
+} */
+#background-img {
+    float: right;
+    height: auto;
+}
+.bg-light {
+    background-image: url(../img/navbar.gif) !important;
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    height: 
+}
+body {
+    font-family: "Helvetica","Arial",sans-serif;
+}
+.body-color {
+    background-color: #EEDDCC;
+    padding: 5% 10% 5% 10%;
+}
+.container {
+    width: 85%;
+}
+#gradient {
+background: #445555;
+/* For browsers that do not support gradients */
+background: -webkit-linear-gradient(top, #445555, #333344) fixed;
+/* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom, #445555, #333344) fixed;
+/* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom, #445555, #333344) fixed;
+/* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom, #445555, #333344) fixed;
+/* Standard syntax */
+}
+h1 {
+    font-family: "Georgia","Times New Roman",sans-serif;
+    font-size: 30px;
+}
+header {
+    background-color: #333344;
+    margin-top: 10px;
+    border: solid 1px gray;
+}
+img {
+    padding: 0 !important;
+    height: 150px !important;
+    
+}
+.navbar {
+      padding: 0 !important;  
+      line-height: 30px;
+}
+/* centers navbar items */
+.navbar-nav > li > a {
+    padding:0px 15px 0px 15px !important; 
+    /* padding-bottom:0px !important; */
+    color: white !important;    
+}
+.navbar-nav > li > a:hover {
+    background-color: #799;
+}
+.navbar.navbar-default .navbar-brand {
+  padding-top: 0;
+}
+.nav-centered{
+    text-align: center !important;
+}
+p > a {
+    color: #445;
+    background-color: #eb6;
+    text-decoration: none !important;
+}
+p > a:hover {
+    color: inherit;
+    background-color: #fb5;
+}
+
+}
