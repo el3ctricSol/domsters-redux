@@ -1,0 +1,20 @@
+.about {
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        text-transform: uppercase;
+        border-bottom: 3px dotted black;
+    }
+
+    &__description {
+
+}
+
+    &__link {
+
+}
+
+
+}
