@@ -1,18 +1,28 @@
-@import 'normalize.css';
+/*@import '~normalize.css';*/
 
-/*@import 'base/_variables';*/
+@import 'base/_variables.css';
 
 
 /*@import 'base/_mixins';*/
 
-@import 'base/_global';
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-@import 'base/_live-table'
+@import 'base/_normalize.css';
+@import 'base/_global.css';
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Slabo+27px');*/
+
+@import 'base/_live-table.css';
 @import 'modules/_header.css';
-@import 'modules/_content.css';
+@import 'modules/_page.css';
 @import 'modules/_table.css';
 @import 'modules/_navigation.css';
 @import 'modules/_gallery.css';
+<<<<<<< HEAD
 
 @media (min-width: 768px) {
 a {
@@ -102,3 +112,6 @@ p > a:hover {
 }
 
 }
+=======
+@import 'modules/_about.css';
+>>>>>>> 353e62fb08783ee11c069a244402010c47dbdd7a
